@@ -7,7 +7,8 @@ public class text {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		int a = 3+5;
+		System.out.println(a);
 
 		List<String> list = new ArrayList<String>();
 		list.add("asdf");

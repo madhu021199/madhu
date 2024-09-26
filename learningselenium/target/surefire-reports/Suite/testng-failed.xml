@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="StandAloneTest(failed)" verbose="0">
+    <classes>
+      <class name="madhumitha.errortests.StandAloneStreamPom">
+        <methods>
+          <include name="submitOrderTest"/>
+          <include name="launchApplication"/>
+          <include name="orderTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- madhumitha.errortests.StandAloneStreamPom -->
+    </classes>
+  </test> <!-- StandAloneTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
